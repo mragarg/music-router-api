@@ -16,6 +16,7 @@ musicRoutes.get('/', controller.retrieveAll);
 
 // POST (create)
 musicRoutes.post('/song/', controller.createSong);
+musicRoutes.post('/album/', controller.createAlbum);
 
 // PUT (update)
 // DELETE (delete)

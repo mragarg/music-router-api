@@ -8,11 +8,16 @@ function createSong(req, res){
     res.json({message: "You created a new song!"});
 }
 
+function createAlbum(req, res){
+    res.json({message: "You created a new album!"});
+}
+
 // PUT functions (Update)
 
 // DELETE functions (Delete)
 
 module.exports = {
     retrieveAll,
-    createSong
+    createSong,
+    createAlbum
 };
