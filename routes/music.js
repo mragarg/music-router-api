@@ -15,6 +15,8 @@ const controller = require('../controllers/music')
 musicRoutes.get('/', controller.retrieveAll);
 
 // POST (create)
+musicRoutes.post('/song/', controller.createSong);
+
 // PUT (update)
 // DELETE (delete)
 
