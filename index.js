@@ -11,3 +11,6 @@ const app = express();
 app.listen(PORT, () => {
     console.log(`Running on Port ${PORT}.`)
 });
+
+const musicRouter = require('./routes/music');
+app.use('/music', musicRouter);
