@@ -19,6 +19,7 @@ musicRoutes.post('/song/', controller.createSong);
 musicRoutes.post('/album/', controller.createAlbum);
 
 // PUT (update)
+musicRoutes.put('/song', controller.updateSongTitle);
 // DELETE (delete)
 
 // Export router

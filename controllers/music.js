@@ -13,11 +13,15 @@ function createAlbum(req, res){
 }
 
 // PUT functions (Update)
+function updateSongTitle(req, res){
+    res.json({message:"You updated the Song's Title!"});
+}
 
 // DELETE functions (Delete)
 
 module.exports = {
     retrieveAll,
     createSong,
-    createAlbum
+    createAlbum,
+    updateSongTitle
 };
